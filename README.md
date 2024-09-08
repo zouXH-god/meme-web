@@ -8,6 +8,8 @@ _✨ 基于meme-generator-api的网页版表情包生成器 ✨_
   <img src="https://img.shields.io/badge/python-3.9+-blue.svg" alt="Python">
 </p>
 
+<img src="/docs/1.png">
+
 </div>
 
 ## 表情列表

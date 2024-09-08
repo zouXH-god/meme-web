@@ -1,4 +1,5 @@
 import json
+import os
 
 import requests
 from flask import Flask, request
@@ -59,4 +60,4 @@ def make_meme_api(key):
 
 if __name__ == '__main__':
     get_keys()
-    app.run(debug=True)
+    app.run(os.getenv("HOST"), os.getenv("PORT"))

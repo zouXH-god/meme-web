@@ -15,7 +15,7 @@ def get_keys():
     times = 0
     print("正在加载表情包数据...")
     for i, key in enumerate(result.json()):
-        print(f"\r正在加载表情：{i}/{len(result.json())} {key}...", end='')
+        print(f"\r正在加载表情：{i}/{len(result.json())} {key}", end='')
         # times += 1
         # if times > 9:
         #     break
